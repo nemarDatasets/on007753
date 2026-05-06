@@ -1,9 +1,9 @@
-### Overview
+## Overview
 This dataset contains EEG data collected while Japanese native speakers read Japanese newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ; Maekawa et al., 2014). Stimuli were presented word by word. This dataset is part of BCCWJ-Brain, This dataset is part of BCCWJ-Brain; three types of brain data — fMRI, MEG, and EEG — were acquired from separate groups of participants using the same stimuli, enabling cross-modality comparisons of language processing with high spatial and temporal resolution respectively.
 The BCCWJ-Brain collection consists of the following datasets:
 
 - BCCWJ-fMRI: ds007752
-- BCCWJ-MEG: 
+- BCCWJ-MEG: ds007763
 - BCCWJ-EEG: ds007753
 
 
@@ -25,12 +25,8 @@ Since the BCCWJ texts are not copyright-free, texts for the experiment is not in
 
 
 ## References
-Christian Brodbeck, Proloy Das, Marlies Gillis, Joshua P Kulasingham, Shohini Bhattasali, Phoebe Gaston, Philip Resnik, Jonathan Z Simon (2023) Eelbrain, a Python toolkit for time-continuous analysis with temporal response functions *eLife* 12:e85012 https://doi.org/10.7554/eLife.85012 
-
-Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Goj R, Jas M, Brooks T, Parkkonen L and Hämäläinen M (2013) MEG and EEG data analysis with MNE-Python. *Front. Neuroinform*. 7:267. doi: 10.3389/fnins.2013.00267
-
-Maekawa, Kikuo., Makoto Yamazaki, Toshinobu Ogiso, Takehiko Maruyama, Hideki Ogura, Wakako Kashino, Hanae Koiso, Masaya Yamaguchi, Mariko Tanaka, and Yasuharu Den. (2014). Balanced corpus of contemporary written Japanese.  *Lang Resources & Evaluation* 48, 345–371 (2014). https://doi.org/10.1007/s10579-013-9261-0
-
-Peirce, J. W. (2007). PsychoPy—Psychophysics software in Python. *Journal of Neuroscience Methods*, 162(1–2), 8–13. https://doi.org/10.1016/j.jneumeth.2006.11.017
-
-Peirce, J. W. (2009). Generating stimuli for neuroscience using PsychoPy. *Frontiers in Neuroinformatics*, 2, 10. https://doi.org/10.3389/neuro.11.010.2008
+Brodbeck, C., Das, P., Gillis, M., Kulasingham, J. P., Bhattasali, S., Gaston, P., Resnik, P., & Simon, J. Z. (2023). Eelbrain, a Python toolkit for time-continuous analysis with temporal response functions. eLife, 12, e85012. https://doi.org/10.7554/eLife.85012
+Gramfort, A., Luessi, M., Larson, E., Engemann, D. A., Strohmeier, D., Brodbeck, C., Goj, R., Jas, M., Brooks, T., Parkkonen, L., & Hämäläinen, M. (2013). MEG and EEG data analysis with MNE-Python. Frontiers in Neuroinformatics, 7, 267. https://doi.org/10.3389/fnins.2013.00267
+Maekawa, K., Yamazaki, M., Ogiso, T., Maruyama, T., Ogura, H., Kashino, W., Koiso, H., Yamaguchi, M., Tanaka, M., & Den, Y. (2014). Balanced corpus of contemporary written Japanese. Language Resources and Evaluation, 48, 345–371. https://doi.org/10.1007/s10579-013-9261-0
+Peirce, J. W. (2007). PsychoPy—Psychophysics software in Python. Journal of Neuroscience Methods, 162(1–2), 8–13. https://doi.org/10.1016/j.jneumeth.2006.11.017
+Peirce, J. W. (2009). Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2, 10. https://doi.org/10.3389/neuro.11.010.2008
