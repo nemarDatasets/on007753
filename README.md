@@ -23,13 +23,14 @@ EEG data were preprocessed using MNE-Python (v1.9.0; Gramfort et al., 2013) and 
 ```
 derivatives/
 ├── eeg/
+    ├── sub-XX_task-BCCWJreading_eeg_0.1-40_raw.fif (bandpass filter applied files)
     ├── sub-XX_task-BCCWJreading_eeg_raw.fif (raw data converted to fif files (without downsampling (1,000Hz)))
     ├── sub-XX_task-BCCWJreading_eeg_reref0.1-40-ica_raw.fif (preprocessed files)
     └── sub-XX_task-BCCWJreading_eeg_reref0.1-40-ica_ave.fif (evoked files)
 ```
 
 ## Notes
-Since the BCCWJ texts are not copyright-free, texts for the experiment is not included in this dataset. To obtain the text, users must register for access to the BCCWJ corpus separately. Once access is granted, we provide a script to incorporate the text into the corresponding ``events.tsv`` files.
+Since the BCCWJ texts are not copyright-free, texts for the experiment is not included in this dataset. To obtain the text, users must register for access to BCCWJ ([https://bccwj-data.ninjal.ac.jp/](https://bccwj-data.ninjal.ac.jp/)) separately. Once access is granted, we provide a script to incorporate the text into the corresponding ``events.tsv`` files.
 
 
 ## References
