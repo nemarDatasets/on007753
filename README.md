@@ -30,7 +30,7 @@ derivatives/
 ```
 
 ## Notes
-Since the BCCWJ texts are not copyright-free, texts for the experiment is not included in this dataset. To obtain the text, users must register for access to BCCWJ ([https://bccwj-data.ninjal.ac.jp/](https://bccwj-data.ninjal.ac.jp/)) separately. Once access is granted, we provide a script to incorporate the text into the corresponding ``events.tsv`` files.
+Since the BCCWJ texts are not copyright-free, texts for the experiment is not included in this dataset. To obtain the text, users must register for access to BCCWJ ([https://bccwj-data.ninjal.ac.jp/](https://bccwj-data.ninjal.ac.jp/)) separately.  See [https://clrd.ninjal.ac.jp/bccwj/en/subscription.html](https://clrd.ninjal.ac.jp/bccwj/en/subscription.html) for the details. Once access is granted, we provide a script to incorporate the text into the corresponding ``events.tsv`` files.
 
 
 ## References
