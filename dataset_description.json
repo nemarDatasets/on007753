@@ -5,10 +5,10 @@
         "Yushi Sugimoto",
         "Masayuki Asahara",
         "Hyeonjeong Jeong",
-	"Akitake Kanno",
-	"Masatoshi Koizumi",
-	"Yohei Oseki"
+        "Akitake Kanno",
+        "Masatoshi Koizumi",
+        "Yohei Oseki"
     ],
     "License": "CC0",
-    "DatasetDOI": ""
+    "DatasetDOI": "doi:10.18112/openneuro.ds007753.v1.1.1"
 }
