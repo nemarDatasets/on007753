@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007753-blue)](https://doi.org/10.82901/nemar.on007753)
+
 
 ## Overview
 This dataset contains EEG data collected while Japanese native speakers read Japanese newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ; Maekawa et al., 2014). Stimuli were presented word by word. This dataset is part of BCCWJ-Brain, This dataset is part of BCCWJ-Brain; three types of brain data (fMRI, MEG, and EEG) were acquired from separate groups of participants using the same stimuli, enabling cross-modality comparisons of language processing with high spatial and temporal resolution respectively.
