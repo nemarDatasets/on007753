@@ -1,14 +1,20 @@
 {
-    "Name": "BCCWJ-EEG",
-    "BIDSVersion": "1.9.0",
-    "Authors": [
-        "Yushi Sugimoto",
-        "Masayuki Asahara",
-        "Hyeonjeong Jeong",
-        "Akitake Kanno",
-        "Masatoshi Koizumi",
-        "Yohei Oseki"
-    ],
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds007753.v1.1.1"
+  "Name": "BCCWJ-EEG",
+  "BIDSVersion": "1.9.0",
+  "Authors": [
+    "Yushi Sugimoto",
+    "Masayuki Asahara",
+    "Hyeonjeong Jeong",
+    "Akitake Kanno",
+    "Masatoshi Koizumi",
+    "Yohei Oseki"
+  ],
+  "License": "CC0",
+  "DatasetDOI": "10.82901/nemar.on007753",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007753.v1.1.1"
+    }
+  ],
+  "Version": "1.0.0"
 }
