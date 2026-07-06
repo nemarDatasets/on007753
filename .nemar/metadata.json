@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007753",
-  "source": "openneuro",
-  "source_id": "ds007753",
+  "pipeline_stage": "enriched",
   "title": "BCCWJ-EEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yushi Sugimoto": {},
     "Masayuki Asahara": {},
@@ -12,21 +12,94 @@
     "Masatoshi Koizumi": {},
     "Yohei Oseki": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007753.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007753",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007753",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007752",
+      "identifier_type": "DOI",
+      "relation_type": "IsPartOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007763",
+      "identifier_type": "DOI",
+      "relation_type": "IsPartOf"
+    },
+    {
+      "identifier": "10.7554/eLife.85012",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.3389/fnins.2013.00267",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1007/s10579-013-9261-0",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains EEG recordings from 41 Japanese native speakers reading newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ) presented word-by-word. Acquired using a 64-channel BrainAmp system at 1000 Hz sampling rate, the data enables investigation of neural correlates of language processing with high temporal resolution. Part of the BCCWJ-Brain collection, this EEG dataset complements concurrent fMRI and MEG acquisitions from separate participant groups using identical stimuli.",
+  "methods_description": "EEG data were recorded using a BrainAmp amplifier with a 64-channel electrode cap (easycap-M1 layout) at 1000 Hz sampling rate. Online reference was at FCz with ground at AFz. Stimuli (20 Japanese newspaper articles) were presented word-by-word via rapid serial visual presentation (RSVP) in PsychoPy, with each word displayed for 500 ms followed by 500 ms blank screen. Preprocessing included bandpass filtering (0.1–40 Hz), independent component analysis for artifact removal, common average re-referencing, epoching (−100 to 1000 ms relative to word onset), downsampling to 200 Hz, and baseline correction using the pre-stimulus interval.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "reading"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "Japanese"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "BCCWJ"
+    },
+    {
+      "term": "BCCWJ-Brain"
+    },
+    {
+      "term": "multimodal"
+    }
+  ],
+  "source_hash": "63e61a8b67256b8a2564aff8f7595bed857952542ed9018d5c6d6baeace813d0"
 }
