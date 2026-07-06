@@ -1,7 +1,0 @@
-
-{   "participant_id" : {"Description" : "participants' IDs"},
-    "age" : {"Description" : "age of participant"},
-    "sex" : {"Description" : "sex of participant"},
-    "comprehension_questions" : {"Description" : "comprehension questions"},
-    "total_quiz_questions" : {"Description" : "the total number of comprehension quiz questions the participant was asked"}
-  }
