@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007753",
+  "source": "openneuro",
+  "source_id": "ds007753",
+  "title": "BCCWJ-EEG",
+  "authors": {
+    "Yushi Sugimoto": {},
+    "Masayuki Asahara": {},
+    "Hyeonjeong Jeong": {},
+    "Akitake Kanno": {},
+    "Masatoshi Koizumi": {},
+    "Yohei Oseki": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007753.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
