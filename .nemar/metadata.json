@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCCWJ-EEG",
-  "description": "This dataset contains 64-channel EEG recordings from 41 Japanese native speakers who read Japanese newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ), presented word by word via rapid serial visual presentation. It is part of the BCCWJ-Brain collection, which includes fMRI, MEG, and EEG data acquired from separate participant groups using the same stimuli, enabling cross-modal comparisons of language processing across spatial and temporal resolutions.",
-  "methods_description": "EEG data were recorded using a BrainAmp amplifier with a 64-channel electrode cap (online reference at FCz, ground at AFz, one IO electrode for ocular monitoring) at a 1,000 Hz sampling rate. Stimuli (20 Japanese newspaper articles) were presented word by word via RSVP in PsychoPy, with each word shown for 500 ms followed by a 500 ms blank screen. Preprocessing used MNE-Python and Eelbrain: ICA for ocular artifact removal, 0.1–40 Hz bandpass filtering, re-referencing to common average, epoching from −100 to 1,000 ms relative to word onset, downsampling to 200 Hz, and baseline correction.",
+  "description": "This dataset contains 64-channel EEG recordings from 41 Japanese native speakers who read Japanese newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ), presented word by word via rapid serial visual presentation. It is part of the BCCWJ-Brain collection, which also includes fMRI and MEG datasets acquired from separate participant groups using the same stimuli, enabling cross-modal comparisons of language processing with complementary spatial and temporal resolution.",
+  "methods_description": "EEG data were recorded using a BrainAmp amplifier with a 64-channel electrode cap, referenced online at FCz with ground at AFz, and an infraorbital electrode for ocular artifact monitoring. Impedances were kept below 20kΩ and data were sampled at 1,000Hz. Stimuli (20 newspaper articles) were presented word by word via RSVP in PsychoPy, with 500 ms presentation and 500 ms blank intervals. Preprocessing was performed using MNE-Python and Eelbrain, including ICA-based ocular artifact removal, 0.1–40 Hz bandpass filtering, re-referencing to common average, epoching from -100 to 1000 ms relative to word onset, downsampling to 200 Hz, and baseline correction.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,19 +19,24 @@
       "term": "EEG"
     },
     {
-      "term": "language processing"
+      "term": "Natural Language Processing",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009323"
     },
     {
-      "term": "reading"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     },
     {
-      "term": "rapid serial visual presentation"
-    },
-    {
-      "term": "Japanese language"
+      "term": "Japanese"
     },
     {
       "term": "psycholinguistics"
+    },
+    {
+      "term": "rapid serial visual presentation"
     }
   ],
   "related_identifiers": [
@@ -44,16 +49,6 @@
       "identifier": "https://nemar.org/dataset/on007753",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds007752",
-      "identifier_type": "DOI",
-      "relation_type": "IsPartOf"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds007763",
-      "identifier_type": "DOI",
-      "relation_type": "IsPartOf"
     },
     {
       "identifier": "10.7554/eLife.85012",
