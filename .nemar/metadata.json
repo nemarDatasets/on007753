@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "BCCWJ-EEG",
-  "description": "This dataset comprises EEG recordings from 41 Japanese native speakers reading newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ) presented word-by-word. Part of the BCCWJ-Brain collection, it enables cross-modality comparisons of language processing by providing high temporal resolution electrophysiological data acquired alongside fMRI and MEG from separate participant groups using identical stimuli. The dataset includes both raw and preprocessed data: raw data converted to FIF format, bandpass-filtered data (0.1–40 Hz), and fully preprocessed derivatives with ICA-cleaned, re-referenced, epoched, and downsampled signals suitable for event-related potential analyses.",
-  "methods_description": "EEG data were recorded using a 64-channel BrainAmp amplifier (Brain Products GmbH, Germany) at 1,000 Hz sampling rate with online reference at FCz and ground at AFz. Stimuli (20 Japanese newspaper articles) were presented word-by-word via rapid serial visual presentation (RSVP) in PsychoPy, with each word displayed for 500 ms followed by 500 ms blank screen. Preprocessing was performed using MNE-Python (v1.9.0) and Eelbrain (v0.40.3) and involved: bandpass filtering (0.1–40 Hz), independent component analysis for ocular artifact removal, common average re-referencing, epoching (−100 to 1,000 ms relative to word onset), downsampling to 200 Hz, and baseline correction using the pre-stimulus interval (−100 to 0 ms). Preprocessed data are provided in the derivatives folder.",
+  "description": "This dataset contains 64-channel EEG recordings from 41 Japanese native speakers who read Japanese newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ), presented word by word via rapid serial visual presentation. It is part of the BCCWJ-Brain collection, which includes fMRI, MEG, and EEG data acquired from separate participant groups using the same stimuli, enabling cross-modal comparisons of language processing across spatial and temporal resolutions.",
+  "methods_description": "EEG data were recorded using a BrainAmp amplifier with a 64-channel electrode cap (online reference at FCz, ground at AFz, one IO electrode for ocular monitoring) at a 1,000 Hz sampling rate. Stimuli (20 Japanese newspaper articles) were presented word by word via RSVP in PsychoPy, with each word shown for 500 ms followed by a 500 ms blank screen. Preprocessing used MNE-Python and Eelbrain: ICA for ocular artifact removal, 0.1–40 Hz bandpass filtering, re-referencing to common average, epoching from −100 to 1,000 ms relative to word onset, downsampling to 200 Hz, and baseline correction.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,46 +22,16 @@
       "term": "language processing"
     },
     {
-      "term": "event-related potentials"
-    },
-    {
       "term": "reading"
-    },
-    {
-      "term": "Japanese"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "BCCWJ"
+      "term": "Japanese language"
     },
     {
-      "term": "BCCWJ-Brain"
-    },
-    {
-      "term": "cross-modality"
-    },
-    {
-      "term": "preprocessing"
-    },
-    {
-      "term": "independent component analysis"
-    },
-    {
-      "term": "common average reference"
-    },
-    {
-      "term": "neurolinguistics"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "MNE-Python"
-    },
-    {
-      "term": "Eelbrain"
+      "term": "psycholinguistics"
     }
   ],
   "related_identifiers": [
@@ -88,22 +58,32 @@
     {
       "identifier": "10.7554/eLife.85012",
       "identifier_type": "DOI",
-      "relation_type": "IsReferencedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.3389/fnins.2013.00267",
       "identifier_type": "DOI",
-      "relation_type": "IsReferencedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1007/s10579-013-9261-0",
       "identifier_type": "DOI",
-      "relation_type": "IsReferencedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds007753.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.jneumeth.2006.11.017",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.3389/neuro.11.010.2008",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_specific": "EEG Dataset",
