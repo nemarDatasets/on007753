@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCCWJ-EEG",
-  "description": "This dataset contains 64-channel EEG recordings from 41 Japanese native speakers who read Japanese newspaper articles from the Balanced Corpus of Contemporary Written Japanese (BCCWJ), presented word by word via rapid serial visual presentation. It is part of the BCCWJ-Brain collection, which also includes fMRI and MEG datasets acquired from separate participant groups using the same stimuli, enabling cross-modal comparisons of language processing with complementary spatial and temporal resolution.",
-  "methods_description": "EEG data were recorded using a BrainAmp amplifier with a 64-channel electrode cap, referenced online at FCz with ground at AFz, and an infraorbital electrode for ocular artifact monitoring. Impedances were kept below 20kΩ and data were sampled at 1,000Hz. Stimuli (20 newspaper articles) were presented word by word via RSVP in PsychoPy, with 500 ms presentation and 500 ms blank intervals. Preprocessing was performed using MNE-Python and Eelbrain, including ICA-based ocular artifact removal, 0.1–40 Hz bandpass filtering, re-referencing to common average, epoching from -100 to 1000 ms relative to word onset, downsampling to 200 Hz, and baseline correction.",
+  "description": "BCCWJ-EEG contains electroencephalography recordings from 41 native Japanese speakers reading newspaper articles from the Balanced Corpus of Contemporary Written Japanese, presented word by word using rapid serial visual presentation. It is part of the BCCWJ-Brain collection, which also includes fMRI and MEG datasets acquired with the same stimuli in separate participant groups, enabling cross-modality comparisons of language processing. Preprocessed derivatives (filtered, ICA-cleaned, re-referenced, and evoked data) are provided.",
+  "methods_description": "EEG was recorded with a BrainAmp amplifier and a 64-channel cap (online reference FCz, ground AFz, plus an infraorbital EOG electrode) at 1,000 Hz with impedances below 20 kΩ. Twenty newspaper articles were presented word by word via RSVP in PsychoPy (500 ms per word, 500 ms blank). Preprocessing used MNE-Python and Eelbrain: ICA-based ocular artifact removal, 0.1-40 Hz bandpass filtering, common average re-referencing, epoching from -100 to 1000 ms, downsampling to 200 Hz, and baseline correction.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,24 +19,19 @@
       "term": "EEG"
     },
     {
-      "term": "Natural Language Processing",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009323"
+      "term": "language processing"
     },
     {
-      "term": "Reading",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
+      "term": "natural reading"
     },
     {
       "term": "Japanese"
     },
     {
-      "term": "psycholinguistics"
+      "term": "rapid serial visual presentation"
     },
     {
-      "term": "rapid serial visual presentation"
+      "term": "corpus"
     }
   ],
   "related_identifiers": [
@@ -86,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "94.6 GB (290 files)"
+    "88.09 GB (290 files)"
   ],
   "formats": [
     ".eeg",
